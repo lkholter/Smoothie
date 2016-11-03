@@ -1,3 +1,46 @@
 body {
-  background: pink;
+  background: grey;
+  background-image: url('http://www.pngall.com/wp-content/uploads/2016/03/Fruit-Free-Download-PNG.png');
+}
+
+h1,p {
+  display: inline;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+}
+
+h1 {
+  font-size: 7em;
+  font-weight: bold;
+}
+
+p {
+  font-size: 4em;
+  text-align: right;
+}
+
+h2 {
+  text-align: center;
+}
+
+.recipes {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row-wrap;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1500px;
+  justify-content: space-around;
+
+}
+
+.recipe {
+  border: solid 2px #71EEB8;
+  padding: 10px;
+  width: 350px;
+  height: 300px;
+  margin: 10px;
+  color: black;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 17px;
 }
