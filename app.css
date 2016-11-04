@@ -4,8 +4,9 @@ body {
    background-repeat: no-repeat;
    background-attachment: fixed;
    }
+
 header {
-  max-height: 10px;
+  max-height: 50px;
 }
 
 h1,p {
@@ -21,7 +22,6 @@ h1 {
 
 p {
   font-size: 4em;
-  margin-top: auto;
   text-align: right;
   padding-right: 50px;
 }
@@ -44,7 +44,6 @@ h2 {
 }
 
 .recipe {
-
   padding: 10px;
   width: 350px;
   height: 300px;
